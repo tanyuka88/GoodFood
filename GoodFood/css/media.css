@@ -1,0 +1,218 @@
+@media screen and (min-width:1200px) {
+    .partners-Area:hover {
+        -webkit-transform: scale(1.2, 1.2);
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transition-duration: 550ms;
+        -moz-transform: scale(1.2, 1.2);
+        -moz-transition-timing-function: ease-out;
+        -moz-transition-duration: 550ms;
+    }
+    .pad{
+        padding: 25px 25px;
+    }
+    .piechart li:hover:nth-child(1) {
+        background: url("../images/img1.png") no-repeat;
+    }
+    .piechart li:hover:nth-child(2) {
+        background: url("../images/img1.png") no-repeat;
+    }
+    .piechart li:hover:nth-child(3) {
+        background: url("../images/img1.png") no-repeat;
+    }
+    .piechart li:hover:nth-child(4) {
+        background: url("../images/img1.png") no-repeat;
+    }
+    .piechart li:hover:nth-child(5) {
+        background: url("../images/img1.png") no-repeat;
+    }
+    .piechart li:hover:nth-child(6) {
+        background: url("../images/img1.png") no-repeat;
+    }
+    .piechart li:hover:nth-child(7) {
+        background: url("../images/img1.png") no-repeat;
+    }
+    .piechart li:hover:nth-child(8) {
+        background: url("../images/img1.png") no-repeat;
+    }
+}
+@media screen and (max-width:1199px) {
+    .no-pad>img{
+        width: 100%;
+    }
+    .pad{
+        padding: 40px;
+    }
+    .top-menu>li a{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:992px){
+    .menu-block{
+        display: none;
+    }
+    .cmn-toggle-switch{
+        display: none;
+    }
+    .border{
+        display: none;
+    }
+    .girl-none-forsmall{
+        bottom: -308px;
+    }
+    .text-over-section{
+       right:150px;
+    }
+}
+@media screen and (max-width:991px){
+    .text-on-backgr{
+        width: 70%;
+    }
+    .top-menu{
+        display: none;
+    }
+    .border{
+        position: absolute;
+        width: 100%;
+        top: 100px;
+        border-bottom: 2px solid #eaeaea;
+    }
+    .production{
+        height: 860px ;
+    }
+    .girl-none-forsmall{
+        width: 35%;
+        bottom: -173px;
+    }
+    .text-over-section{
+        width: 100%;
+        bottom: -150px;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+}
+@media screen and (min-width:970px){
+    .no-pad{
+        height: 312px;
+    }
+    .button-moreinfo {
+        width: 500px;
+    }
+}
+@media screen and (max-width:969px){
+    .no-pad{
+        height: 200px;
+    }
+    .no-pad>p{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+@media screen and (max-width:800px){
+    .text-on-backgr h2{
+        font-size: 38px;
+    }
+    .background-image{
+        height: 312px;
+        background-size: cover;
+    }
+    .background-image h2{
+        margin-top:230px;
+    }
+}
+@media screen and (max-width:635px){
+    .no-pad{
+        height: 150px;
+    }
+    .partners-Area>img{
+        width: 100%;
+    }
+    .about>h2{
+        font-size: 30px;
+        margin: 0 0 10px 0;
+    }
+    .about>p{
+        font-size: 16px;
+    }
+    .button-moreinfo{
+        padding: 10px;
+    }
+    .button-moreinfo>a {
+        font-size: 16px;
+    }
+    .pad{
+        padding: 15px;
+    }
+    .production p{
+        width: 100% !important;
+        font-size: 15px;
+    }
+    .girl-none-forsmall{
+        display: none;
+    }
+    .text-over-section{
+        font-size: 1em;
+    }
+}
+@media screen and (min-width:501px){
+    .icon1, .icon2, .icon3{
+        float: left;
+    }
+    .text-manufacture{
+        float: right;
+    }
+    .triangleRight::after{
+        top:41%;
+    }
+    .triangleLeft::before{
+        top:41%;
+    }
+}
+@media screen and (max-width:500px){
+    .no-pad{
+        height: 100px;
+    }
+    .pad{
+        padding: 10px;
+    }
+    .no-pad>p{
+        display: none;
+    }
+    strong{
+        font-size: 13px;
+    }
+    .no-pad>a{
+        font-size: 13px;
+    }
+    .text-manufacture{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .icon1, .icon2, .icon3{
+        margin: 0 auto;
+    }
+    .triangleRight::after{
+        top:30%;
+    }
+    .triangleLeft::before{
+        top:30%;
+    }
+    .background-image h2{
+        font-size: 36px;
+    }
+    #text-with-whitebcgr{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:550px){
+    .icon-big{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1275px){
+    .no-pad>p{
+        font-size: 15px;
+    }
+}
